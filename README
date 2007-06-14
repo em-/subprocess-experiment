@@ -1,0 +1,19 @@
+Silly subprocess experiment
+===========================
+
+This is a small experiment using the subprocess Python module
+launching two small programs, 'a.py' and 'b.py' talking each
+other on their respective stdin/stdout.
+
+In particular, 'a.py' reads from 'b.py' stdout, which in turn
+reads from 'a.py' stdout.
+
+The main program is 'run.py' which sets up the pipes and waits
+for the completion of the two subprocesses.
+
+The code is released under Public Domain. Do whatever you 
+want with it.
+
+-- 
+Emanuele Aina <em@nerd.ocracy.org>
+http://nerd.ocracy.org/em/
